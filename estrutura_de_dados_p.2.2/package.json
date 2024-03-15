@@ -1,0 +1,15 @@
+{
+  "name": "matematica_para_computacao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "um": "ts-node ./src/p.2.2_view.ts",
+    "dois": "ts-node ./matematica/ep2.1.ts",
+    "tres": "ts-node ./matematica/ep2.2.ts",
+    "quatro": "ts-node ./matematica/ep2.3.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
