@@ -5,7 +5,7 @@ function maiorValor (a:number[]): number{
     } else {
         console.log((a.slice(1, a.length)));
        let valor_restante = maiorValor(a.slice(1, a.length))
-        if(a[0] >= valor_restante){
+        if(Math.abs(a[0]) >= Math.abs(valor_restante)){
             console.log(`Retornando ${a[0]} pois é maior ou igual a ${valor_restante}`);
             return a[0]
         } else {
