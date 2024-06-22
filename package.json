@@ -7,9 +7,14 @@
     "um": "ts-node ./src/p.2.2_view.ts",
     "dois": "ts-node ./matematica/ep2.1.ts",
     "tres": "ts-node ./matematica/ep2.2.ts",
-    "quatro": "ts-node ./matematica/ep2.3.ts"
+    "quatro": "ts-node ./matematica/ep2.3.ts",
+    "cinco": "ts-node ./src/a.ts",
+    "start": "ts-node src/index.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
